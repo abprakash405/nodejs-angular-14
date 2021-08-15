@@ -53,4 +53,4 @@ jobs:
         app-name: 'fasdfasdfaseradf'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_ccadb9698c2f4922953ea43c164d9dd9 }}
-        package: .
+        package: ./dist/hello-world-app
